@@ -1,5 +1,5 @@
 body {
-    background: lightblue;
+    background: rgb(233, 147, 97);
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -15,7 +15,7 @@ body {
 
 
 .form-checkbox {
-    margin-left: 20px;
+    margin-left: 60px;
 }
 
 
@@ -44,3 +44,21 @@ input[type=text]:focus {
     text-decoration: underline;
     
 }
+
+
+.footer {
+    float: left;
+    display: inline;
+    justify-content: space-around;
+    list-style-type: none;
+    text-transform: uppercase;
+
+}
+
+li {
+    float: left;
+    list-style: none;
+    margin-right: auto;
+    padding: 50px;
+}
+
