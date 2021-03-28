@@ -11,11 +11,16 @@ body {
 
 .questions {
     margin: 20px 20px;
+    line-height: 1.5em;
 }
 
 
 .form-checkbox {
     margin-left: 60px;
+}
+
+input[type="radio"] {
+    background-color: crimson;
 }
 
 
@@ -60,5 +65,6 @@ li {
     list-style: none;
     margin-right: auto;
     padding: 50px;
+    font-size: 0.8em;
 }
 
