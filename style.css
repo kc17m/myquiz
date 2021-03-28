@@ -68,3 +68,8 @@ li {
     font-size: 0.8em;
 }
 
+.magpie {
+    max-width: 2em;
+    max-height: 2em;
+}
+
