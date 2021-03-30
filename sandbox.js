@@ -22,17 +22,25 @@ form.addEventListener("submit", e => {
             score += 25;
             
         }
-        if (score <= 25) {
+        if (score == 0) {
             condResult.textContent = "Come on, you can do it better! Your Score: ";
+            condResult.style.color ="red";
             }
-        if (score <= 50) {
+        if (score <= 25) {
+            condResult.textContent = "I bet you'll make it next time! Your Score: ";
+            condResult.style.color ="#7fffd4";
+            }
+        if (score >= 50) {
             condResult.textContent = "Not too bad, your score: ";
+            condResult.style.color ="#5F9ea0";
         }
-        if (score <= 75) {
+        if (score >= 75) {
             condResult.textContent = "Good, but you might get better next time, your score: ";
+            condResult.style.color ="blue";
         }
-        else {
+        if (score > 75) {
             condResult.textContent = "Awesome! Your score: ";
+            condResult.style.color ="green";
         }
 
 
