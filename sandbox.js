@@ -26,7 +26,7 @@ form.addEventListener("submit", e => {
             condResult.textContent = "Come on, you can do it better! Your Score: ";
             condResult.style.color ="red";
             }
-        if (score <= 25) {
+        if (score <= 25 && score > 0) {
             condResult.textContent = "I bet you'll make it next time! Your Score: ";
             condResult.style.color ="#7fffd4";
             }
